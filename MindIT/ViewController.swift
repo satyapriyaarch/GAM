@@ -225,7 +225,7 @@ class ViewController: UIViewController {
                 
                 UIView.beginAnimations(nil, context: nil)
                 UIView.setAnimationDuration(1.0)
-                UIView.setAnimationTransition(.flipFromRight, for: self.imageViews[(touch.view?.tag)!], cache:true)
+                UIView.setAnimationTransition(.flipFromLeft, for: self.imageViews[(touch.view?.tag)!], cache:true)
                 UIView.commitAnimations()
                 
                 print("Card Touched second \(selectedTag))" )
@@ -241,7 +241,10 @@ class ViewController: UIViewController {
                     
                     print("failed")
                     
-                    self.FlipBothCards()
+                    Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false, block: { _ in self.FlipBothCards()})
+                    
+                    
+                   
                     
                 }
                 
