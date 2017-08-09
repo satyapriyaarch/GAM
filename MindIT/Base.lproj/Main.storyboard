@@ -22,95 +22,94 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XC4-oM-Gp5">
-                                <rect key="frame" x="9" y="153" width="338" height="400"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="XC4-oM-Gp5">
+                                <rect key="frame" x="35" y="141" width="305" height="385"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kAk-P1-G8e" userLabel="1_row">
-                                        <rect key="frame" x="0.0" y="0.0" width="338" height="72"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kAk-P1-G8e" userLabel="1_row">
+                                        <rect key="frame" x="0.0" y="0.0" width="305" height="73"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uca-Ty-fo8">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="uca-Ty-fo8">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VEv-7x-caW">
-                                                <rect key="frame" x="67" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="VEv-7x-caW">
+                                                <rect key="frame" x="62" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6YE-gc-mI0">
-                                                <rect key="frame" x="134" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="6YE-gc-mI0">
+                                                <rect key="frame" x="124" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWg-Jc-mke">
-                                                <rect key="frame" x="201" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="gWg-Jc-mke">
+                                                <rect key="frame" x="186" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" image="img_1.5" translatesAutoresizingMaskIntoConstraints="NO" id="lbT-ed-WsJ">
-                                                <rect key="frame" x="268" y="0.0" width="70" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="lbT-ed-WsJ">
+                                                <rect key="frame" x="248" y="0.0" width="57" height="73"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="h2e-pz-Esi" userLabel="2_row">
-                                        <rect key="frame" x="0.0" y="82" width="258" height="72"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="h2e-pz-Esi" userLabel="2_row">
+                                        <rect key="frame" x="0.0" y="78" width="243" height="73"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJ1-8l-s5S">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dJ1-8l-s5S">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JS3-gJ-BjE">
-                                                <rect key="frame" x="67" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="JS3-gJ-BjE">
+                                                <rect key="frame" x="62" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dEJ-Q3-7NN">
-                                                <rect key="frame" x="134" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dEJ-Q3-7NN">
+                                                <rect key="frame" x="124" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KZJ-Wp-taG">
-                                                <rect key="frame" x="201" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="KZJ-Wp-taG">
+                                                <rect key="frame" x="186" y="0.0" width="57" height="73"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QFi-Nv-eIX" userLabel="3_row">
-                                        <rect key="frame" x="0.0" y="164" width="191" height="72"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QFi-Nv-eIX" userLabel="3_row">
+                                        <rect key="frame" x="0.0" y="156" width="181" height="73"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ZQ-2S-Ioc">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="3ZQ-2S-Ioc">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iB8-Qm-6Ku">
-                                                <rect key="frame" x="67" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="iB8-Qm-6Ku">
+                                                <rect key="frame" x="62" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3DA-Uc-t2Z">
-                                                <rect key="frame" x="134" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="3DA-Uc-t2Z">
+                                                <rect key="frame" x="124" y="0.0" width="57" height="73"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4Qh-b1-xPp" userLabel="4_row">
-                                        <rect key="frame" x="0.0" y="246" width="258" height="72"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4Qh-b1-xPp" userLabel="4_row">
+                                        <rect key="frame" x="0.0" y="234" width="243" height="73"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-Nv-pHd">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-Nv-pHd">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NnT-uu-2MK">
-                                                <rect key="frame" x="67" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="NnT-uu-2MK">
+                                                <rect key="frame" x="62" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-oU-rtI">
-                                                <rect key="frame" x="134" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-oU-rtI">
+                                                <rect key="frame" x="124" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgs-VN-xrr">
-                                                <rect key="frame" x="201" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dgs-VN-xrr">
+                                                <rect key="frame" x="186" y="0.0" width="57" height="73"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-vM-gI6" userLabel="5_row">
-                                        <rect key="frame" x="0.0" y="328" width="325" height="72"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-vM-gI6" userLabel="5_row">
+                                        <rect key="frame" x="0.0" y="312" width="305" height="73"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cvt-i9-R8h">
-                                                <rect key="frame" x="0.0" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="Cvt-i9-R8h">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9WP-qB-eRv">
-                                                <rect key="frame" x="67" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="9WP-qB-eRv">
+                                                <rect key="frame" x="62" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jwr-y4-GIX">
-                                                <rect key="frame" x="134" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="jwr-y4-GIX">
+                                                <rect key="frame" x="124" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dso-So-jNt">
-                                                <rect key="frame" x="201" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleToFill" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dso-So-jNt">
+                                                <rect key="frame" x="186" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hxc-iu-ItN">
-                                                <rect key="frame" x="268" y="0.0" width="57" height="72"/>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="Hxc-iu-ItN">
+                                                <rect key="frame" x="248" y="0.0" width="57" height="73"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -123,11 +122,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="gray_box.png" translatesAutoresizingMaskIntoConstraints="NO" id="PDE-Ve-lmw">
-                                <rect key="frame" x="275" y="110" width="56" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="gray_box.png" translatesAutoresizingMaskIntoConstraints="NO" id="tzd-mm-DlE">
-                                <rect key="frame" x="116" y="112" width="62" height="26"/>
+                                <rect key="frame" x="275" y="72" width="56" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Move:" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="L5A-tZ-k9A">
@@ -137,9 +132,12 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIx-ml-Czk">
-                                <rect key="frame" x="58" y="579" width="33" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIx-ml-Czk">
+                                <rect key="frame" x="58" y="554" width="33" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="tU5-Ed-vGE"/>
+                                    <constraint firstAttribute="width" constant="33" id="tgj-tb-K3o"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal" image="cancel">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -164,9 +162,12 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvK-gx-xac">
-                                <rect key="frame" x="128" y="583" width="97" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvK-gx-xac">
+                                <rect key="frame" x="139" y="556" width="97" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="49s-XW-m5c"/>
+                                    <constraint firstAttribute="width" constant="97" id="dG1-Ud-oF0"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Solve" image="solve">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -191,14 +192,47 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="gray_box.png" translatesAutoresizingMaskIntoConstraints="NO" id="tzd-mm-DlE">
+                                <rect key="frame" x="61" y="72" width="62" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="XC4-oM-Gp5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MZG-5W-Dwg"/>
                             <constraint firstItem="TyW-Vr-vdp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="PqP-KE-aaa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TyW-Vr-vdp" secondAttribute="trailing" id="dir-Hj-z0f"/>
                             <constraint firstItem="TyW-Vr-vdp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="izh-oI-JZp"/>
+                            <constraint firstItem="MvK-gx-xac" firstAttribute="leading" secondItem="PIx-ml-Czk" secondAttribute="trailing" constant="48" id="nQW-fn-GdE"/>
+                            <constraint firstItem="XC4-oM-Gp5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nfG-SN-j6e"/>
+                            <constraint firstItem="MvK-gx-xac" firstAttribute="top" secondItem="hJf-vM-gI6" secondAttribute="bottom" constant="30" id="sVC-Yo-jRp"/>
+                            <constraint firstItem="PIx-ml-Czk" firstAttribute="centerY" secondItem="MvK-gx-xac" secondAttribute="centerY" id="xeg-HJ-iq6"/>
+                            <constraint firstItem="MvK-gx-xac" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zQS-sa-kbo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView1" destination="uca-Ty-fo8" id="HLn-90-3ey"/>
+                        <outlet property="imageView10" destination="3ZQ-2S-Ioc" id="ZSw-wE-bhg"/>
+                        <outlet property="imageView11" destination="iB8-Qm-6Ku" id="KSq-B9-rkZ"/>
+                        <outlet property="imageView12" destination="3DA-Uc-t2Z" id="Ebo-aG-enZ"/>
+                        <outlet property="imageView13" destination="cJf-Nv-pHd" id="RPB-7A-pqy"/>
+                        <outlet property="imageView14" destination="NnT-uu-2MK" id="Td6-G8-BdQ"/>
+                        <outlet property="imageView15" destination="nRd-oU-rtI" id="tn0-o5-Vxj"/>
+                        <outlet property="imageView16" destination="dgs-VN-xrr" id="98j-u7-iq7"/>
+                        <outlet property="imageView17" destination="Cvt-i9-R8h" id="RjW-Ss-6f1"/>
+                        <outlet property="imageView18" destination="9WP-qB-eRv" id="ocO-pN-g4w"/>
+                        <outlet property="imageView19" destination="jwr-y4-GIX" id="ZPQ-aD-gJT"/>
+                        <outlet property="imageView2" destination="VEv-7x-caW" id="7b9-9S-462"/>
+                        <outlet property="imageView20" destination="dso-So-jNt" id="ES5-2H-mf1"/>
+                        <outlet property="imageView21" destination="Hxc-iu-ItN" id="CVW-uj-SYg"/>
+                        <outlet property="imageView3" destination="6YE-gc-mI0" id="xWe-NF-Q5e"/>
+                        <outlet property="imageView4" destination="gWg-Jc-mke" id="NQs-EY-Ija"/>
+                        <outlet property="imageView5" destination="lbT-ed-WsJ" id="DBU-OK-zkp"/>
+                        <outlet property="imageView6" destination="dJ1-8l-s5S" id="EyB-hz-idr"/>
+                        <outlet property="imageView7" destination="JS3-gJ-BjE" id="ntV-db-t7J"/>
+                        <outlet property="imageView8" destination="dEJ-Q3-7NN" id="nXG-Tn-y5P"/>
+                        <outlet property="imageView9" destination="KZJ-Wp-taG" id="RbT-Ix-AEU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -207,9 +241,9 @@
     </scenes>
     <resources>
         <image name="black_strip" width="320" height="44"/>
+        <image name="blank_card" width="57" height="73"/>
         <image name="cancel" width="39" height="37"/>
         <image name="gray_box.png" width="16" height="16"/>
-        <image name="img_1.5" width="70" height="70"/>
         <image name="solve" width="109" height="36"/>
     </resources>
 </document>
