@@ -182,6 +182,14 @@ class ViewController: UIViewController {
         
         var touch :UITouch = touches.first as UITouch!
         
+    
+        
+       
+        if (touch.view?.tag == 9999) {
+            
+            return
+        }
+        
         var selectedTag:Int = (touch.view?.tag)!
         
         UIView.beginAnimations(nil, context: nil)
@@ -193,7 +201,9 @@ class ViewController: UIViewController {
         
         self.imageViews[(touch.view?.tag)!].image = UIImage.init(named: imageArrayCopy[(touch.view?.tag)!])
         
-        if (touch.view != self.view) {
+        
+        
+       
 
           if (selectedImage == 0)
           {
@@ -202,15 +212,6 @@ class ViewController: UIViewController {
             if selectedImage == 1 {
                 
                 
-//
-//                UIView.beginAnimations(nil, context: nil)
-//                UIView.setAnimationDuration(1.0)
-//                UIView.setAnimationTransition(.flipFromRight, for: self.imageViews[(touch.view?.tag)!], cache:true)
-//                UIView.commitAnimations()
-//                
-//                firstImage =  self.imageViews[(touch.view?.tag)!]
-//                
-//                self.imageViews[(touch.view?.tag)!].image = UIImage.init(named: imageArrayCopy[(touch.view?.tag)!])
                 
                 firstImage =  self.imageViews[(touch.view?.tag)!]
                 
@@ -254,7 +255,7 @@ class ViewController: UIViewController {
             
         }
         
-    }
+    
  
     
 
