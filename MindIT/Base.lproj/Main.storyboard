@@ -46,7 +46,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="h2e-pz-Esi" userLabel="2_row">
-                                        <rect key="frame" x="0.0" y="78" width="243" height="73"/>
+                                        <rect key="frame" x="0.0" y="78" width="305" height="73"/>
                                         <subviews>
                                             <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dJ1-8l-s5S">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
@@ -60,55 +60,67 @@
                                             <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="KZJ-Wp-taG">
                                                 <rect key="frame" x="186" y="0.0" width="57" height="73"/>
                                             </imageView>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="3ZQ-2S-Ioc">
+                                                <rect key="frame" x="248" y="0.0" width="57" height="73"/>
+                                            </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QFi-Nv-eIX" userLabel="3_row">
-                                        <rect key="frame" x="0.0" y="156" width="181" height="73"/>
+                                        <rect key="frame" x="0.0" y="156" width="305" height="73"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="3ZQ-2S-Ioc">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="iB8-Qm-6Ku">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="iB8-Qm-6Ku">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="3DA-Uc-t2Z">
                                                 <rect key="frame" x="62" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="3DA-Uc-t2Z">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-Nv-pHd">
                                                 <rect key="frame" x="124" y="0.0" width="57" height="73"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="NnT-uu-2MK">
+                                                <rect key="frame" x="186" y="0.0" width="57" height="73"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-oU-rtI">
+                                                <rect key="frame" x="248" y="0.0" width="57" height="73"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4Qh-b1-xPp" userLabel="4_row">
-                                        <rect key="frame" x="0.0" y="234" width="243" height="73"/>
+                                        <rect key="frame" x="0.0" y="234" width="305" height="73"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-Nv-pHd">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dgs-VN-xrr">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="NnT-uu-2MK">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="Cvt-i9-R8h">
                                                 <rect key="frame" x="62" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="nRd-oU-rtI">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="9WP-qB-eRv">
                                                 <rect key="frame" x="124" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dgs-VN-xrr">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="jwr-y4-GIX">
                                                 <rect key="frame" x="186" y="0.0" width="57" height="73"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dso-So-jNt">
+                                                <rect key="frame" x="248" y="0.0" width="57" height="73"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-vM-gI6" userLabel="5_row">
                                         <rect key="frame" x="0.0" y="312" width="305" height="73"/>
                                         <subviews>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="Cvt-i9-R8h">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="Hxc-iu-ItN">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="9WP-qB-eRv">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="LqG-PM-qzP">
                                                 <rect key="frame" x="62" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="jwr-y4-GIX">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="Ijx-Sa-R7x">
                                                 <rect key="frame" x="124" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleToFill" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="dso-So-jNt">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="EW1-66-AER">
                                                 <rect key="frame" x="186" y="0.0" width="57" height="73"/>
                                             </imageView>
-                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="Hxc-iu-ItN">
+                                            <imageView contentMode="scaleAspectFit" image="blank_card" translatesAutoresizingMaskIntoConstraints="NO" id="iDf-hQ-2qO">
                                                 <rect key="frame" x="248" y="0.0" width="57" height="73"/>
                                             </imageView>
                                         </subviews>
@@ -191,6 +203,10 @@
                         <outlet property="imageView2" destination="VEv-7x-caW" id="7b9-9S-462"/>
                         <outlet property="imageView20" destination="dso-So-jNt" id="ES5-2H-mf1"/>
                         <outlet property="imageView21" destination="Hxc-iu-ItN" id="CVW-uj-SYg"/>
+                        <outlet property="imageView22" destination="LqG-PM-qzP" id="mVW-Ns-gzt"/>
+                        <outlet property="imageView23" destination="Ijx-Sa-R7x" id="1LV-i1-VWW"/>
+                        <outlet property="imageView24" destination="EW1-66-AER" id="alq-lE-T8M"/>
+                        <outlet property="imageView25" destination="iDf-hQ-2qO" id="vE0-do-2xV"/>
                         <outlet property="imageView3" destination="6YE-gc-mI0" id="xWe-NF-Q5e"/>
                         <outlet property="imageView4" destination="gWg-Jc-mke" id="NQs-EY-Ija"/>
                         <outlet property="imageView5" destination="lbT-ed-WsJ" id="DBU-OK-zkp"/>

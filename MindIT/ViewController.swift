@@ -54,6 +54,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView22: UIImageView!
     @IBOutlet weak var imageView23: UIImageView!
     @IBOutlet weak var imageView24: UIImageView!
+    @IBOutlet weak var imageView25: UIImageView!
      @IBOutlet weak var countDown: UILabel!
     var timerx :Timer = Timer()
     
@@ -74,9 +75,9 @@ class ViewController: UIViewController {
         
         
         imageArray = ["img_1.png","img_2.png","img_3.png","img_4.png","img_5.png",
-                      "img_4.png","img_5.png","img_6.png","img_7.png",
-                      "img_8.png","img_7.png","img_9.png",
-                      "img_10.png","img_3.png","img_8.png","img_10.png",
+                      "img_4.png","img_5.png","img_6.png","img_7.png","img_11.png",
+                      "img_8.png","img_7.png","img_9.png","img_11.png","img_12.png",
+                      "img_10.png","img_3.png","img_8.png","img_10.png","img_12.png",
                       "img_6.png","img_2.png","img_9.png","img_1.png","img_13.png"]
         
         
@@ -93,7 +94,7 @@ class ViewController: UIViewController {
         
         
         imageViews = [imageView1,imageView2,imageView3,imageView4,imageView5,imageView6,imageView7,
-                      imageView8, imageView9,imageView10, imageView11,imageView12,imageView13,imageView14,imageView15,imageView16,imageView17,imageView18,imageView19,imageView20,imageView21]
+                      imageView8, imageView9,imageView10, imageView11,imageView12,imageView13,imageView14,imageView15,imageView16,imageView17,imageView18,imageView19,imageView20,imageView21,imageView22,imageView23,imageView24,imageView25]
         
         for (index,imageViewTemp) in imageViews.enumerated() {
             
